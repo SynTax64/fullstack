@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: wheat;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    float: left;
+    padding: 0;
+    margin-top: 0;
+}
+
+button {
+    float: right;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    #collapsed-menu {
+        background-color: rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    #collapsed-menu li {
+        width: 100%;
+    }
+
+    #collapsed-menu li:hover {
+        opacity: 0.8;
+    }
+
+    .navbar-toggle {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 20%;
+    }
+
+    .navbar-toggle:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .navbar-toggle span.icon-bar {
+        background-color: white;
+    }
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin: 0;
+}
+
+.navbar-nav li {
+    width: 168px;
+}
+
+table tr:first-child {
+    font-weight: bold;
+}
+
+table tr:nth-child(2n) {
+    background-color: #CDBA8E;
+}
+
+table tr:nth-child(2n):hover {
+    background-color: #d2bf92;
+}
+
+.navbar-nav li:hover {
+    background-color: #CDBA8E;
+    border-radius: 0px;
+    border-bottom: 3px solid seashell;
+}
+
+.navbar-nav li a {
+    color: rgba(255, 255, 255, 0.9) !important;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #e6d3a3;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+.jumbotron .row {
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table, table tr, table tr td {
+    border: 1px dotted rgba(0, 0, 0, 0.4);
+    padding: 5px;
+}
